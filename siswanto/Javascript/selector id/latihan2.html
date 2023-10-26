@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquary.com/jquary-3.6.0.min.js"></script>>
+</head>
+<body>
+    <div id="myDiv" style="width: 200px; height: 200px; background-color: green"></div>
+
+    <button id="changecolorButton">Ubah Latar Belakang</button>
+
+    <script>
+        $(document).ready(function () {
+            $("#changeColorButton").click(function () {
+                $("myDiv").css("background-color","blue");
+            });
+        });
+    </script>
+</body>
+</html>

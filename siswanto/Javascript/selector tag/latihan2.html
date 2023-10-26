@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquary.com/jquary-3.6.0.min.js"></script>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <img src="image/gambar1.jpg" alt="Gambar1">
+    <img src="image/gambar2.jpg" alt="Gambar2">
+    <img src="image/gambar3.jpg" alt="Gambar3">
+
+    <button id="addBorderButton">Tambah Boder pada Gambar</button>
+    <script>
+        $(document).ready(function () {
+            $("#addBorderButton").click(function () {
+                $("p").css("border", "2px solid red");
+            });
+        });
+    </script>
+</body>
+</html>
